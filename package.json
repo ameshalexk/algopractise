@@ -1,0 +1,25 @@
+{
+  "name": "algocasts",
+  "version": "1.0.0",
+  "description": "## Concepts You Should Know How to describe ( Google and Stack Overflow) 1. JavaScript Data Types 1. Difference Between Const Let and Var 1. Pass By Value vs Pass By Reference 1. Map , Filter and Reduce ( Mutation or not) 1. Falsey Values 1.  Global Variables 1. This 1. double equals vs triple equals 1. Coercion  1. typeof 1. delete (not the http method) 1. Object Notations 1. Strict Mode 1. Anonymous Functions 1. Callbacks 1. Closure 1. instanceof 1. IIFE 1. HTML5 APIS 1. Destructuring 1. Rest and Spread 1. Arrow Function differences 1. HTTP Methods 1. HTTP Status Codes 1. HTTP 2 and HTTP 3 1. Restful Routes 1. Promises 1. Async Await 1. CSS Specificity 1. Semantic HTML 1. How do you make a Circle in CSS 1. What is Z-index 1. Vendor Prefixes Purpouse 1. CSS Grid and Flexbox 1. Speed Up a Slow App 1. CRUD 1. CRAP 1. SOLID 1. OOP 1. Functional Programming 1. Recursion 1. SPA 1. MPA",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthurbernierjr/AlgoCasts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arthurbernierjr/AlgoCasts/issues"
+  },
+  "homepage": "https://github.com/arthurbernierjr/AlgoCasts#readme",
+  "dependencies": {
+    "jest": "^26.0.1"
+  },
+    "jest": {
+    "testEnvironment": "node"
+  }
+}

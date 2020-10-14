@@ -1,0 +1,64 @@
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+}
+ul > li > a:link, ul > li > a:visited{
+  text-decoration: none;
+  color: white;
+  font-size: 4rem;
+  cursor: pointer;
+}
+#top, #middle, #bottom{
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+}
+#top{
+  background-color: red;
+  display: flex;
+}
+#middle{
+  background-color: green;
+}
+#bottom{
+  background-color: yellow;
+}
+
+
+#top >  .right {
+  background-color: green;
+  order: 0;
+flex-basis: 40%;
+}
+#top >  .left {
+  order: 1;
+  background-color: purple;
+flex-basis: 60%;
+}
+
+
+header{
+  display: flex;
+  justify-content: center;
+}
+header > div {
+  margin: 3rem;
+}
+
+
+
+
+
+
+
+
+
+/**/
